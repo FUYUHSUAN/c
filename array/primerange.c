@@ -17,8 +17,7 @@ int main(void)
                 }
             }
             if(j<2)isprime=0;
-            if (isprime==1)printf("%d\n",j);
-            printf("%d is prime",j);
+            if (isprime==1)printf("%d is prime\n",j);
         }
     }
     else{
@@ -33,9 +32,9 @@ int main(void)
                 }
             }
             if(j<2)isprime=0;
-            if (isprime==1)printf("%d\n",j);
-            printf("%d is prime",j);
+            if (isprime==1)printf("%d is prime\n",j);
         }
 
         }
 }
+
