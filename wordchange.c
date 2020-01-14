@@ -5,12 +5,17 @@ char a[SIZE] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p',
 char b[SIZE] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
 int main(void)
 {
-    int i,j;
+    int i,j,t=0;
     char word[SIZE];
     printf("Please enter the word\n");
     scanf("%s",word);
     for(i=0;word[i]!='\0';i++){
        printf("%c\t",word[i]);
+       t++;
+    }
+    printf("\n");
+    for(i=t-1;i>=0;i--){
+       printf("%c",word[i]);
     }
     printf("\n");
     for(i=0;word[i]!='\0';i++){
@@ -32,4 +37,6 @@ int main(void)
 
         }
     }
+
+
 }
